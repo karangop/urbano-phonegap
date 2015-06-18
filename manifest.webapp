@@ -1,0 +1,23 @@
+{
+	"name": "Urbano SPEED",
+  "version": "1.0",
+  "launch_path": "/index.html",
+  "description": "Lugares a mi alrededor, tales como: hospitales, supermercados, farmacias, etc.",
+  "icons": {
+    "32": "/images/logo32.png",
+    "48": "/images/logo48.png",
+    "64": "/images/logo64.png",
+    "128": "/images/logo128.png"
+  },
+  "developer": {
+    "name": "Karina A Gonzalez P",
+    "url": "https://www.linkedin.com/in/karangop"
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "es",
+  "permissions": {
+  	"geolocation": {
+			"description" : "Uso para localizarme"
+  	}
+  }
+}
